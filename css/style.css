@@ -1,9 +1,9 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background:azure;
 }
 
 .container {
@@ -72,6 +72,7 @@ section {
     width: 80%;
     margin: 0 auto;
     text-align: center; /* Center content */
+    background: black;
 }
 
 .container p {
@@ -80,13 +81,14 @@ section {
     margin: 0 auto;
     font-size: 22px;
     font-weight: bold;
-    color: black;
+    color: white;
     text-align: start; /* Center content */
 }
 
 h1, h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: red;
 }
 
 #projects .project {
@@ -131,7 +133,7 @@ h1, h2 {
 
 /* About Section */
 #about {
-    background-color: #fff;
+    background:azure;
     padding: 50px 0;
     text-align: center;
 }
